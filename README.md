@@ -7,12 +7,11 @@ git branch -M main #Cria uma raiz chamada "main"
 git push -u origin main #Joga todas essas alterações para seu github
 ```
 
-## Comandos para puxar e salvar seu arquivo do GitHub
+## Comandos para puxar e salvar seu repositorio do GitHub para o VisualCode
 ```bash
-git clone https://link_do_seu_repositorio_no_github
-
-git branch develop
-git switch develop
+git clone https://link_do_seu_repositorio_no_github #Clona o seu repositorio para o visual code
+git branch develop #Cria uma raiz de desenvolvimento
+git switch develop #Troca da raiz principal para a de desenvolvimento
 git add seu_arquivo.algo #Adiciona o arquivo à área de espera (prepara pra commit)
 git add . #Faz a mesma coisa que o de cima, mas com todos os arquivos e pastas
 git commit -m "Exemplo de texto para salvar as mudanças" #Cria um commit com a mensagem, salvando as mudanças preparadas
