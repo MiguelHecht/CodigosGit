@@ -3,9 +3,7 @@
 git config --global user.name "Seu Nome de Usuario" #Faz o git entender o nome da pessoa que está alterando os arquivos
 git config --global user.email "Seu email de Usuario" #Faz o git entender o gmail da pessoa que está alterando os arquivos
 git init
-git remote add origin https://o_link_do_seu_repositorio_criado_no_github #Junta seu repositorio do github com o Git
 git branch -M main #Cria uma raiz chamada "main"
-git push -u origin main #Joga todas essas alterações para seu github
 ```
 
 ## Comandos para puxar e salvar seu repositorio do GitHub para o VisualCode
